@@ -1,0 +1,420 @@
+== Changelog ==
+    
+= 1.25.8 (2024-10-31) =
+* improve cart data on custom events
+
+= 1.25.7 (2024-10-29) =
+* improve cart id generation with fallback value
+
+= 1.25.6 (2024-10-25) =
+* add embedded payments support for order pay page
+
+= 1.25.5 (2024-10-25) =
+* improve checkout title fallback behaviour
+
+= 1.25.4 (2024-10-18) =
+* support a new pending state to prevent slow internet connection
+
+= 1.25.3 (2024-10-16) =
+* more improvements to woo checkout validation for embedded payments
+
+= 1.25.2 (2024-10-16) =
+* reuse built-in woo validation to improve checkout experience
+
+= 1.25.1 (2024-10-11) =
+* improve check for WC->payment_gateways to resolve error log
+
+= 1.25.0 (2024-10-09) =
+* prevent to call submit if validations are failing
+
+= 1.24.4 (2024-09-27) =
+* fix issue with saving settings when payment gateways are not set
+
+= 1.24.3 (2024-09-25) =
+* update wordpress tested version to 6.6
+
+= 1.24.2 (2024-09-25) =
+* add latest releases to readme changelog section
+
+= 1.24.1 (2024-09-20) =
+* add changelog info
+
+= 1.24.0 (2024-09-19) =
+* embedded payment, closes #201
+
+= 1.23.0 (2024-09-05) =
+* add embedded payment confirmation
+
+= 1.22.8 (2024-08-28) =
+* cast order calculation values to float
+
+= 1.22.7 (2024-08-16) =
+* improve plugin settings
+
+= 1.22.6 (2024-08-12) =
+* provide phone fallback value
+
+= 1.22.5 (2024-08-09) =
+* improve data on gateway order events
+
+= 1.22.4 (2024-08-08) =
+* make super viewable for block checkout in admin
+
+= 1.22.3 (2024-07-10) =
+* set order awaiting payment for store api orders
+
+= 1.22.2 (2024-07-08) =
+* separate payment and refund webhooks from gateway class
+
+= 1.22.1 (2024-07-04) =
+* remove mobile css from payment method option
+
+= 1.22.0 (2024-07-04) =
+* add phone to payment intent creation
+
+= 1.21.3 (2024-07-01) =
+* updated public description to include cards
+
+= 1.21.2 (2024-06-27) =
+* add number data to custom events
+
+= 1.21.1 (2024-06-24) =
+* temporarily remove flow type option
+
+= 1.21.0 (2024-06-20) =
+* add flow type option
+
+= 1.20.11 (2024-06-13) =
+* include extra metadata on custom events
+
+= 1.20.10 (2024-06-12) =
+* update super payment method icon to be dynamic
+
+= 1.20.9 (2024-06-06) =
+* update super payment method icon
+
+= 1.20.8 (2024-05-17) =
+* add cart date fields to custom events
+
+= 1.20.7 (2024-05-16) =
+* change rewards display order in admin dashboard
+
+= 1.20.6 (2024-05-16) =
+* add order date fields to custom events
+
+= 1.20.5 (2024-05-14) =
+* readd missing readme and changelog
+
+= 1.20.4 (2024-05-09) =
+* update wordpress tested version to 6.5
+
+= 1.20.3 (2024-05-09) =
+* add integration id to custom events
+
+= 1.20.2 (2024-04-22) =
+* migrate to new api versioning strategy
+
+= 1.20.1 (2024-04-04) =
+* add billing email to custom events
+
+= 1.20.0 (2024-02-23) =
+* add admin option to enable test mode
+
+= 1.19.1 (2024-02-13) =
+* add order note to explain potential customer overpayment
+
+= 1.19.0 (2024-02-07) =
+* add support for woocommerce checkout, cart and order received blocks
+
+= 1.18.0 (2024-01-11) =
+* pass payment initiator id to offers in request headers
+
+= 1.17.2 (2024-01-02) =
+* add admin notice about ip addresses if cloudflare is detected
+
+= 1.17.1 (2023-12-12) =
+* remove unnecessary gateway icon apply filter
+
+= 1.17.0 (2023-12-07) =
+* capture email on payment to pre-fill on confirmation
+
+= 1.16.1 (2023-10-30) =
+* remove super payment gateway for non GBP currencies
+
+= 1.16.0 (2023-10-18) =
+* Added extra parameters to allow for MAC integration when initialising SuperJS Web Components
+
+= 1.15.3 (2023-10-16) =
+* improve messaging for failed refund initiation
+
+= 1.15.2 (2023-10-13) =
+* resolve issue with crashing view order page
+
+= 1.15.1 (2023-10-10) =
+* deprecation of dynamic properties
+
+= 1.15.0 (2023-10-09) =
+* allow cash rewards to be applied as coupons
+
+= 1.14.0 (2023-10-06) =
+* add order number prefix option
+
+= 1.13.12 (2023-09-28) =
+* No longer cancel orders when customer payments are cancelled/failed
+
+= 1.13.11 (2023-09-21) =
+* prevent handling multiple success webhook events
+
+= 1.13.10 (2023-09-15) =
+* add custom event for cart id created
+
+= 1.13.9 (2023-09-14) =
+* reduce payment method title checks
+
+= 1.13.8 (2023-09-13) =
+* consolidate function prefixes on wcsp_
+
+= 1.13.7 (2023-09-13) =
+* improve installation readme with settings info
+
+= 1.13.6 (2023-09-13) =
+* add changelog txt file
+
+= 1.13.5 (2023-09-11) =
+* add xootix cart drawer asset hook
+
+= 1.13.4 (2023-09-08) =
+* get super payment method title via filter
+
+= 1.13.3 (2023-09-07) =
+* improve handling of settings in custom events
+
+= 1.13.2 (2023-09-07) =
+* replace deprecated get display price
+
+= 1.13.1 (2023-09-07) =
+* get title from plugin offers fragments
+
+= 1.13.0 (2023-09-05) =
+* add custom events
+
+= 1.12.0 (2023-09-04) =
+* auto update settings on save
+
+= 1.11.11 (2023-08-31) =
+* use product display price for assets
+
+= 1.11.10 (2023-08-30) =
+* add validation for api key and confirmation id
+
+= 1.11.9 (2023-08-29) =
+* add support link to installed plugins page
+
+= 1.11.8 (2023-08-29) =
+* check chosen payment method
+
+= 1.11.7 (2023-08-22) =
+* intval incorrectly rounding
+
+= 1.11.6 (2023-08-17) =
+* update wordpress tested version to 6.3
+
+= 1.11.5 (2023-08-17) =
+* use woo order crud apis
+
+= 1.11.4 (2023-08-17) =
+* resolve issues with order pay page
+
+= 1.11.3 (2023-08-10) =
+* bug deleting refund after refund failure
+
+= 1.11.2 (2023-08-04) =
+* Fixed bug where string representation of the price was not being implicitly cast to float for PHP 8+
+
+= 1.11.1 (2023-08-03) =
+* combine success notes into one note
+
+= 1.11.0 (2023-08-01) =
+* integrate banner, product callout and cart callout web components
+
+= 1.10.5 (2023-07-27) =
+* set email referral default to be disabled
+
+= 1.10.4 (2023-07-12) =
+* updated tested up to
+
+= 1.10.3 (2023-07-10) =
+* show referral to everyone
+
+= 1.10.2 (2023-07-10) =
+* prevent referral link being sent to admins
+
+= 1.10.1 (2023-07-05) =
+* restore plugin version header
+
+= 1.10.0 (2023-07-05) =
+* add referral link content
+
+= 1.9.1 (2023-07-05) =
+* check responses for wp errors
+
+= 1.9.0 (2023-06-29) =
+* add modal on pdp page
+
+= 1.8.2 (2023-06-22) =
+* add is array check
+
+= 1.8.1 (2023-06-22) =
+* allow 201 responses after nest switchover
+* Revert "ci: change token used for releases", closes #79 #81
+
+= 1.8.0 (2023-06-20) =
+* Added 2 new white banners
+
+= 1.7.0 (2023-06-16) =
+* initiate refunds and handle refund webhook events
+
+= 1.6.7 (2023-06-16) =
+* Update marketplace listing text to include cash rewards
+
+= 1.6.6 (2023-06-15) =
+* resolve issues with cart id not expiring
+
+= 1.6.5 (2023-06-07) =
+* set order total based on cash payable to merchant
+
+= 1.6.4 (2023-05-17) =
+* removing environment from release workflow
+
+= 1.6.3 (2023-05-17) =
+* remove 403 error
+
+= 1.6.2 (2023-05-04) =
+* standardise cart info
+
+= 1.6.1 (2023-04-28) =
+* convert quantity to integer
+
+= 1.6.0 (2023-03-31) =
+* Change of payment title
+
+= 1.5.10 (2023-03-31) =
+* CSS 404 issue, whitespace release trigger
+
+= 1.5.9 (2023-03-31) =
+* CSS 404 issue
+
+= 1.5.8 (2023-03-15) =
+* check if post_type is set
+
+= 1.5.7 (2023-03-14) =
+* add super notes to woocommerce orders
+
+= 1.5.6 (2023-02-28) =
+* move super to the top on activation
+
+= 1.5.5 (2023-02-27) =
+* revert changes to deduplicate calls
+
+= 1.5.4 (2023-02-27) =
+* show only 2 decimal places for super cashback total
+
+= 1.5.3 (2023-02-21) =
+* add plugin version header to api calls
+
+= 1.5.2 (2023-02-21) =
+* add settings link
+
+= 1.5.1 (2023-02-21) =
+* reduce cashback call duplication
+
+= 1.5.0 (2023-02-20) =
+* add option to set super payments as the top method
+
+= 1.4.7 (2023-02-15) =
+* revert work to reduce call duplication
+
+= 1.4.6 (2023-02-15) =
+* missing brace after merge
+
+= 1.4.5 (2023-02-15) =
+* reduce cashback call duplication
+
+= 1.4.4 (2023-02-15) =
+* modify order total title on admin pages
+
+= 1.4.3 (2023-02-02) =
+* Update Woo listing page
+
+= 1.4.2 (2023-02-01) =
+* Update button text based on API request response
+
+= 1.4.1 (2023-01-20) =
+* Updates the supported values for banner color schemes
+
+= 1.4.0 (2023-01-18) =
+* add banner and order total features
+
+= 1.3.2 (2023-01-09) =
+* setting not being shown as a checkbox
+
+= 1.3.1 (2023-01-09) =
+* readd marketing asset settings
+
+= 1.3.0 (2023-01-06) =
+* add option to update order total
+
+= 1.2.7 (2022-12-20) =
+* this used outside of object context
+
+= 1.2.6 (2022-12-20) =
+* update requests to use v2 api
+
+= 1.2.5 (2022-12-16) =
+* Style fix for super img on checkout
+
+= 1.2.4 (2022-12-14) =
+* include cart id on all requests to the discounts api
+
+= 1.2.3 (2022-12-13) =
+* prevent the webhook setting successful orders to failed
+
+= 1.2.2 (2022-12-09) =
+* add transaction reference to order fields
+
+= 1.2.1 (2022-12-07) =
+* disable plp cta by default
+
+= 1.2.0 (2022-12-07) =
+* add CTA text for product pages and basket
+
+= 1.1.3 (2022-12-02) =
+* fire expire call on payment complete hook
+
+= 1.1.2 (2022-12-02) =
+* generate unique cart id as UUID
+
+= 1.1.1 (2022-11-30) =
+* remove content type header from empty expire request
+
+= 1.1.0 (2022-11-29) =
+* Super value proposition display
+
+= 1.0.5 (2022-11-15) =
+* Changed payment button message when the merchant discount percentage offered is zero.
+
+= 1.0.4 (2022-11-04) =
+* add superpayments id to gateway icon call
+
+= 1.0.3 (2022-11-03) =
+* change payment method wording
+
+= 1.0.2 (2022-10-31) =
+* expand cases where we generate a discount
+
+= 1.0.1 (2022-10-27) =
+* align method title with company copy
+
+= 1.0.0 (2022-10-25) =
+* initial super payments payment gateway plugin
+

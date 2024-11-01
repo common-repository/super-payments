@@ -1,0 +1,16 @@
+@media only screen and (min-width: 768px) {
+    .payment_method_superpayments label {
+        display: inline-flex !important;
+        align-items: center;
+    }
+
+    .payment_method_superpayments p {
+        display: inline !important;
+        margin-right: 20px !important;
+    }
+
+    .payment_method_superpayments img {
+        padding: 0 0 0 10px !important;
+        float: unset !important;
+    }
+}
